@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhaopin.qiaodata.kotlin.view.ScrollConlictActivity">
+
+    <com.zhaopin.qiaodata.kotlin.widgets.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#ff0000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:background="#124323"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <com.zhaopin.qiaodata.kotlin.widgets.MyViewPager
+                android:background="#692"
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <View
+                android:background="#321523"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <View
+                android:background="#293950"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <View
+                android:background="#124323"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </LinearLayout>
+    </com.zhaopin.qiaodata.kotlin.widgets.MyScrollView>
+
+</LinearLayout>

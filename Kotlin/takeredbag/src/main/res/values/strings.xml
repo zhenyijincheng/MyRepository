@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TakeRedPacket</string>
+    <string name="desc">抢红包配置文件</string>
+</resources>
