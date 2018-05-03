@@ -75,7 +75,6 @@ class PageView:View {
             }
 
             override fun onAnimationEnd(p0: Animator?) {
-                prePageValueAnimator.start()
             }
         })
 
