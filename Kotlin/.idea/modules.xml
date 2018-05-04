@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Kotlin.iml" filepath="$PROJECT_DIR$/Kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/callrecoder/callrecoder.iml" filepath="$PROJECT_DIR$/callrecoder/callrecoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" filepath="$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/imitatexiaomisportmodel/imitatexiaomisportmodel.iml" filepath="$PROJECT_DIR$/imitatexiaomisportmodel/imitatexiaomisportmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagelibrary/pagelibrary.iml" filepath="$PROJECT_DIR$/pagelibrary/pagelibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/takeredbag/takeredbag.iml" filepath="$PROJECT_DIR$/takeredbag/takeredbag.iml" />

@@ -1,1 +1,1 @@
-include ':app', ':callrecoder', ':takeredbag', ':imitatexiaomisportmodel', ':pagelibrary'
+include ':app', ':callrecoder', ':takeredbag', ':imitatexiaomisportmodel', ':pagelibrary', ':hotfixdemo'
