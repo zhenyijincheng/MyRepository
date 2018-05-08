@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhaopin.qiaodata.kotlin">
+    package="com.toy.qiaodata.hotfixproject">
 
     <application
         android:allowBackup="true"
@@ -16,9 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.HentaiJumStepsActivity" />
-        <activity android:name=".view.DragCityActivity" />
-        <activity android:name=".view.ScrollConlictActivity" />
-        <activity android:name=".view.PageViewActivity"></activity>
     </application>
+
 </manifest>
