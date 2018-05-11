@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" filepath="$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/imitatexiaomisportmodel/imitatexiaomisportmodel.iml" filepath="$PROJECT_DIR$/imitatexiaomisportmodel/imitatexiaomisportmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagelibrary/pagelibrary.iml" filepath="$PROJECT_DIR$/pagelibrary/pagelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runshellcommend/runshellcommend.iml" filepath="$PROJECT_DIR$/runshellcommend/runshellcommend.iml" />
       <module fileurl="file://$PROJECT_DIR$/takeredbag/takeredbag.iml" filepath="$PROJECT_DIR$/takeredbag/takeredbag.iml" />
     </modules>
   </component>
