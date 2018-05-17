@@ -72,12 +72,9 @@ public class SampleApplicationLike extends DefaultApplicationLike {
         installTinker();
 
         Beta.autoCheckUpgrade = false;
-        Beta.
 //        Beta.canAutoDownloadPatch = false;
 //        Beta.autoDownloadOnWifi = false;
 //        Beta.canAutoPatch = false;
-
-
     }
 
     private void installTinker() {

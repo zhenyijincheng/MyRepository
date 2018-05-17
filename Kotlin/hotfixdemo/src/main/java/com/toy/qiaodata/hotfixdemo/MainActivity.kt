@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(application, "补丁回滚", Toast.LENGTH_SHORT).show()
             }
         }
-        tv_hello.text = "this is can notify user version ()()()"
+        tv_hello.text = "this is can notify user version patch 1.0.9"
 
         btn_check_update.setOnClickListener {
             Beta.checkUpgrade()
