@@ -6,13 +6,7 @@ I love Wang Cong.
 
 这里是dev分支
 
-createing a new branch is quic & simple
-
-
-
-
-
-
+Creaate a new branch is quick and simple.
 
 
 
