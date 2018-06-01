@@ -17,9 +17,5 @@ createing a new branch is quick and simple.
 
 又创建了dev分支 05/30 尝试ff模式
 
-<<<<<<< HEAD
-
 创建分支dev2
-=======
 测试rebase
->>>>>>> 123
