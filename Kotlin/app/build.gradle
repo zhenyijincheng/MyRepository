@@ -21,15 +21,15 @@ android {
 }
 
 dependencies {
-    androidTestCompile 'com.android.support:support-annotations:25.4.0'
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
-    compile 'io.reactivex:rxandroid:1.1.0'
-    compile 'io.reactivex:rxjava:1.1.2'
-    implementation project(':pagelibrary')
+    androidTestImplementation 'com.android.support:support-annotations:27.1.1'
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    api 'com.android.support:appcompat-v7:26.1.0'
+    api 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    api 'io.reactivex:rxandroid:1.1.0'
+    api 'io.reactivex:rxjava:1.1.2'
+    api project(':pagelibrary')
 }
 repositories {
     mavenCentral()

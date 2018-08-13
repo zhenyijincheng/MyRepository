@@ -1,1 +1,1 @@
-include ':app', ':callrecoder', ':takeredbag', ':imitatexiaomisportmodel', ':pagelibrary', ':hotfixdemo', ':runshellcommend'
+include ':app', ':callrecoder', ':takeredbag', ':imitatexiaomisportmodel', ':pagelibrary', ':hotfixdemo', ':runshellcommend', ':slidingconflict', ':redbubble', ':geometrylibrary'

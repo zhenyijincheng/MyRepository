@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        applicationId "com.toy.qiaodata.slidingconflict"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            postprocessing {
+                removeUnusedCode false
+                removeUnusedResources false
+                obfuscate false
+                optimizeCode false
+                proguardFile 'proguard-rules.pro'
+            }
+        }
+    }
+
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    api 'com.android.support:appcompat-v7:26.1.0'
+    api 'com.android.support.constraint:constraint-layout:1.1.2'
+    api 'com.android.support:design:26.1.0'
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+}
